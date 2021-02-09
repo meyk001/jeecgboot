@@ -1,0 +1,959 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Tue Feb 09 17:56:30 CST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Tue Feb 09 18:35:52 CST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Tue Feb 09 20:42:13 CST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+
+<tr class="error even">
+<td class="Level">ERROR</td>
+<td class="Date">2021-02-09 20:42:23,413</td>
+<td class="Message">init datasource error, url: jdbc:mysql://127.0.0.1:3306/jeecgboot?characterEncoding=UTF-8&amp;useUnicode=true&amp;useSSL=false&amp;tinyInt1isBit=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=Asia/Shanghai</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">927</td>
+</tr>
+<tr><td class="Exception" colspan="6">com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:456)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:923)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.creator.DruidDataSourceCreator.createDataSource(DruidDataSourceCreator.java:158)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.creator.DataSourceCreator.createDruidDataSource(DataSourceCreator.java:174)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.creator.DataSourceCreator.createDataSource(DataSourceCreator.java:92)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.provider.AbstractDataSourceProvider.createDataSourceMap(AbstractDataSourceProvider.java:45)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.provider.YmlDynamicDataSourceProvider.loadDataSources(YmlDynamicDataSourceProvider.java:43)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.DynamicRoutingDataSource.afterPropertiesSet(DynamicRoutingDataSource.java:229)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:538)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1509)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1404)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:453)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:527)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:497)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:650)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:239)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:318)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:551)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java:40002)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:41008)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.JeecgSystemApplication.main(JeecgSystemApplication.java:32)
+<br />Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:544)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:496)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:383)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.NativeSession.connect(NativeSession.java:157)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 93 common frames omitted
+<br />Caused by: java.net.SocketException: Connection reset
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.net.SocketInputStream.read(SocketInputStream.java:210)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.net.SocketInputStream.read(SocketInputStream.java:141)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.io.FilterInputStream.read(FilterInputStream.java:133)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:538)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 99 common frames omitted
+</td></tr>
+<tr class="error odd">
+<td class="Level">ERROR</td>
+<td class="Date">2021-02-09 20:42:23,420</td>
+<td class="Message">{dataSource-1} init error</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">969</td>
+</tr>
+<tr><td class="Exception" colspan="6">com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:456)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:923)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.creator.DruidDataSourceCreator.createDataSource(DruidDataSourceCreator.java:158)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.creator.DataSourceCreator.createDruidDataSource(DataSourceCreator.java:174)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.creator.DataSourceCreator.createDataSource(DataSourceCreator.java:92)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.provider.AbstractDataSourceProvider.createDataSourceMap(AbstractDataSourceProvider.java:45)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.provider.YmlDynamicDataSourceProvider.loadDataSources(YmlDynamicDataSourceProvider.java:43)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.DynamicRoutingDataSource.afterPropertiesSet(DynamicRoutingDataSource.java:229)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:538)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1509)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1404)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:453)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:527)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:497)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:650)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:239)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:318)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:551)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java:40002)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:41008)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.JeecgSystemApplication.main(JeecgSystemApplication.java:32)
+<br />Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:544)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:496)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:383)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.NativeSession.connect(NativeSession.java:157)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 93 common frames omitted
+<br />Caused by: java.net.SocketException: Connection reset
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.net.SocketInputStream.read(SocketInputStream.java:210)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.net.SocketInputStream.read(SocketInputStream.java:141)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.io.FilterInputStream.read(FilterInputStream.java:133)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:538)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 99 common frames omitted
+</td></tr>
+<tr class="error even">
+<td class="Level">ERROR</td>
+<td class="Date">2021-02-09 20:42:23,528</td>
+<td class="Message">Application run failed</td>
+<td class="MethodOfCaller">reportFailure</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">837</td>
+</tr>
+<tr><td class="Exception" colspan="6">org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;jimuReportTokenService&#39;: Unsatisfied dependency expressed through field &#39;sysBaseAPI&#39;; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &#39;sysBaseApiImpl&#39;: Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysLogMapper&#39; defined in file [D:\ideaJava\jeecg-boot\jeecg-boot\jeecg-boot-module-system\target\classes\org\jeecg\modules\system\mapper\SysLogMapper.class]: Unsatisfied dependency expressed through bean property &#39;sqlSessionFactory&#39;; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sqlSessionFactory&#39; defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method &#39;sqlSessionFactory&#39; parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &#39;dataSource&#39; defined in class path resource [com/baomidou/dynamic/datasource/spring/boot/autoconfigure/DynamicDataSourceAutoConfiguration.class]: Invocation of init method failed; nested exception is com.baomidou.dynamic.datasource.exception.ErrorCreateDataSourceException: druid create error
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:551)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java:40002)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:41008)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.JeecgSystemApplication.main(JeecgSystemApplication.java:32)
+<br />Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &#39;sysBaseApiImpl&#39;: Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysLogMapper&#39; defined in file [D:\ideaJava\jeecg-boot\jeecg-boot\jeecg-boot-module-system\target\classes\org\jeecg\modules\system\mapper\SysLogMapper.class]: Unsatisfied dependency expressed through bean property &#39;sqlSessionFactory&#39;; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sqlSessionFactory&#39; defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method &#39;sqlSessionFactory&#39; parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &#39;dataSource&#39; defined in class path resource [com/baomidou/dynamic/datasource/spring/boot/autoconfigure/DynamicDataSourceAutoConfiguration.class]: Invocation of init method failed; nested exception is com.baomidou.dynamic.datasource.exception.ErrorCreateDataSourceException: druid create error
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 22 common frames omitted
+<br />Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sysLogMapper&#39; defined in file [D:\ideaJava\jeecg-boot\jeecg-boot\jeecg-boot-module-system\target\classes\org\jeecg\modules\system\mapper\SysLogMapper.class]: Unsatisfied dependency expressed through bean property &#39;sqlSessionFactory&#39;; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sqlSessionFactory&#39; defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method &#39;sqlSessionFactory&#39; parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &#39;dataSource&#39; defined in class path resource [com/baomidou/dynamic/datasource/spring/boot/autoconfigure/DynamicDataSourceAutoConfiguration.class]: Invocation of init method failed; nested exception is com.baomidou.dynamic.datasource.exception.ErrorCreateDataSourceException: druid create error
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1524)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1404)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:453)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:527)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:497)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:650)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:239)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:318)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 33 common frames omitted
+<br />Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name &#39;sqlSessionFactory&#39; defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method &#39;sqlSessionFactory&#39; parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &#39;dataSource&#39; defined in class path resource [com/baomidou/dynamic/datasource/spring/boot/autoconfigure/DynamicDataSourceAutoConfiguration.class]: Invocation of init method failed; nested exception is com.baomidou.dynamic.datasource.exception.ErrorCreateDataSourceException: druid create error
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:538)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1509)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 47 common frames omitted
+<br />Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &#39;dataSource&#39; defined in class path resource [com/baomidou/dynamic/datasource/spring/boot/autoconfigure/DynamicDataSourceAutoConfiguration.class]: Invocation of init method failed; nested exception is com.baomidou.dynamic.datasource.exception.ErrorCreateDataSourceException: druid create error
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1794)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 60 common frames omitted
+<br />Caused by: com.baomidou.dynamic.datasource.exception.ErrorCreateDataSourceException: druid create error
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.creator.DruidDataSourceCreator.createDataSource(DruidDataSourceCreator.java:160)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.creator.DataSourceCreator.createDruidDataSource(DataSourceCreator.java:174)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.creator.DataSourceCreator.createDataSource(DataSourceCreator.java:92)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.provider.AbstractDataSourceProvider.createDataSourceMap(AbstractDataSourceProvider.java:45)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.provider.YmlDynamicDataSourceProvider.loadDataSources(YmlDynamicDataSourceProvider.java:43)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.DynamicRoutingDataSource.afterPropertiesSet(DynamicRoutingDataSource.java:229)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 71 common frames omitted
+<br />Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:456)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:923)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.baomidou.dynamic.datasource.creator.DruidDataSourceCreator.createDataSource(DruidDataSourceCreator.java:158)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 78 common frames omitted
+<br />Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:544)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:496)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:383)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1346)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.NativeSession.connect(NativeSession.java:157)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 93 common frames omitted
+<br />Caused by: java.net.SocketException: Connection reset
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.net.SocketInputStream.read(SocketInputStream.java:210)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.net.SocketInputStream.read(SocketInputStream.java:141)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.io.FilterInputStream.read(FilterInputStream.java:133)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:538)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 99 common frames omitted
+</td></tr><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Tue Feb 09 20:42:46 CST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+
+<tr class="error even">
+<td class="Level">ERROR</td>
+<td class="Date">2021-02-09 20:43:08,635</td>
+<td class="Message">java.io.IOException: 你的主机中的软件中止了一个已建立的连接。</td>
+<td class="MethodOfCaller">handleException</td>
+<td class="FileOfCaller">JeecgBootExceptionHandler.java</td>
+<td class="LineOfCaller">57</td>
+</tr>
+<tr><td class="Exception" colspan="6">org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:309)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:272)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:105)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:277)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:450)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.github.xiaoymin.knife4j.spring.filter.ProductionSecurityFilter.doFilter(ProductionSecurityFilter.java:53)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.github.xiaoymin.knife4j.spring.filter.SecurityBasicAuthFilter.doFilter(SecurityBasicAuthFilter.java:90)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.Thread.run(Thread.java:748)
+<br />Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.nio.ch.SocketDispatcher.write0(Native Method)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:138)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1253)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:717)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:707)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:572)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.http11.filters.GzipOutputFilter.flush(GzipOutputFilter.java:104)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:220)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1195)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:399)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.Response.action(Response.java:209)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:305)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 90 common frames omitted
+</td></tr>
+<tr class="error odd">
+<td class="Level">ERROR</td>
+<td class="Date">2021-02-09 20:43:10,110</td>
+<td class="Message">Connection failure occurred. Restarting subscription task after 5000 ms</td>
+<td class="MethodOfCaller">handleSubscriptionException</td>
+<td class="FileOfCaller">RedisMessageListenerContainer.java</td>
+<td class="LineOfCaller">651</td>
+</tr>
+
+<tr class="error even">
+<td class="Level">ERROR</td>
+<td class="Date">2021-02-09 20:43:17,175</td>
+<td class="Message">Connection failure occurred. Restarting subscription task after 5000 ms</td>
+<td class="MethodOfCaller">handleSubscriptionException</td>
+<td class="FileOfCaller">RedisMessageListenerContainer.java</td>
+<td class="LineOfCaller">651</td>
+</tr>
+
+<tr class="error odd">
+<td class="Level">ERROR</td>
+<td class="Date">2021-02-09 20:43:24,200</td>
+<td class="Message">Connection failure occurred. Restarting subscription task after 5000 ms</td>
+<td class="MethodOfCaller">handleSubscriptionException</td>
+<td class="FileOfCaller">RedisMessageListenerContainer.java</td>
+<td class="LineOfCaller">651</td>
+</tr>
+
+<tr class="error even">
+<td class="Level">ERROR</td>
+<td class="Date">2021-02-09 20:43:31,253</td>
+<td class="Message">Connection failure occurred. Restarting subscription task after 5000 ms</td>
+<td class="MethodOfCaller">handleSubscriptionException</td>
+<td class="FileOfCaller">RedisMessageListenerContainer.java</td>
+<td class="LineOfCaller">651</td>
+</tr>
+
+<tr class="error odd">
+<td class="Level">ERROR</td>
+<td class="Date">2021-02-09 20:43:33,282</td>
+<td class="Message">Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379</td>
+<td class="MethodOfCaller">handleException</td>
+<td class="FileOfCaller">JeecgBootExceptionHandler.java</td>
+<td class="LineOfCaller">57</td>
+</tr>
+<tr><td class="Exception" colspan="6">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1534)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1442)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1228)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1211)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:975)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:360)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:134)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:97)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:84)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:215)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.common.util.RedisUtil.get(RedisUtil.java:96)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.system.controller.LoginController.login(LoginController.java:83)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.system.controller.LoginController$$FastClassBySpringCGLIB$$1.invoke(&lt;generated&gt;)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.common.aspect.DictAspect.doAround(DictAspect.java:50)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.reflect.Method.invoke(Method.java:498)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.system.controller.LoginController$$EnhancerBySpringCGLIB$$1.login(&lt;generated&gt;)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.reflect.Method.invoke(Method.java:498)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:450)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.github.xiaoymin.knife4j.spring.filter.ProductionSecurityFilter.doFilter(ProductionSecurityFilter.java:53)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.github.xiaoymin.knife4j.spring.filter.SecurityBasicAuthFilter.doFilter(SecurityBasicAuthFilter.java:90)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.Thread.run(Thread.java:748)
+<br />Caused by: org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:109)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1440)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 124 common frames omitted
+<br />Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:242)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.lettuce.core.RedisClient.connect(RedisClient.java:206)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.util.Optional.orElseGet(Optional.java:267)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.lambda$null$0(LettucePoolingConnectionProvider.java:97)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:211)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:201)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:58)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:899)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:429)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:354)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:122)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:117)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:103)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 125 common frames omitted
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+java.net.ConnectException: Connection refused: no further information
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.Thread.run(Thread.java:748)
+</td></tr>
+<tr class="error even">
+<td class="Level">ERROR</td>
+<td class="Date">2021-02-09 20:43:38,298</td>
+<td class="Message">Connection failure occurred. Restarting subscription task after 5000 ms</td>
+<td class="MethodOfCaller">handleSubscriptionException</td>
+<td class="FileOfCaller">RedisMessageListenerContainer.java</td>
+<td class="LineOfCaller">651</td>
+</tr>
+
+<tr class="error odd">
+<td class="Level">ERROR</td>
+<td class="Date">2021-02-09 20:43:45,317</td>
+<td class="Message">Connection failure occurred. Restarting subscription task after 5000 ms</td>
+<td class="MethodOfCaller">handleSubscriptionException</td>
+<td class="FileOfCaller">RedisMessageListenerContainer.java</td>
+<td class="LineOfCaller">651</td>
+</tr>
+
+<tr class="error even">
+<td class="Level">ERROR</td>
+<td class="Date">2021-02-09 20:43:52,346</td>
+<td class="Message">Connection failure occurred. Restarting subscription task after 5000 ms</td>
+<td class="MethodOfCaller">handleSubscriptionException</td>
+<td class="FileOfCaller">RedisMessageListenerContainer.java</td>
+<td class="LineOfCaller">651</td>
+</tr>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Tue Feb 09 21:04:10 CST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+

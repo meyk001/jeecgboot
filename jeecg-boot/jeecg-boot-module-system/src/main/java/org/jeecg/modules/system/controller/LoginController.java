@@ -73,19 +73,19 @@ public class LoginController {
 		//update-begin--Author:scott  Date:20190805 for：暂时注释掉密码加密逻辑，有点问题
 
 		//update-begin-author:taoyan date:20190828 for:校验验证码
-        String captcha = sysLoginModel.getCaptcha();
-        if(captcha==null){
-            result.error500("验证码无效");
-            return result;
-        }
-        String lowerCaseCaptcha = captcha.toLowerCase();
-		String realKey = MD5Util.MD5Encode(lowerCaseCaptcha+sysLoginModel.getCheckKey(), "utf-8");
-		Object checkCode = redisUtil.get(realKey);
-		//当进入登录页时，有一定几率出现验证码错误 #1714
-		if(checkCode==null || !checkCode.toString().equals(lowerCaseCaptcha)) {
-			result.error500("验证码错误");
-			return result;
-		}
+//        String captcha = sysLoginModel.getCaptcha();
+//        if(captcha==null){
+//            result.error500("验证码无效");
+//            return result;
+//        }
+//        String lowerCaseCaptcha = captcha.toLowerCase();
+//		String realKey = MD5Util.MD5Encode(lowerCaseCaptcha+sysLoginModel.getCheckKey(), "utf-8");
+//		Object checkCode = redisUtil.get(realKey);
+//		//当进入登录页时，有一定几率出现验证码错误 #1714
+//		if(checkCode==null || !checkCode.toString().equals(lowerCaseCaptcha)) {
+//			result.error500("验证码错误");
+//			return result;
+//		}
 		//update-end-author:taoyan date:20190828 for:校验验证码
 		
 		//1. 校验用户是否有效

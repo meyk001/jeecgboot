@@ -19,3 +19,5 @@ rebel.xml
 modules/core/target/*
 */target/
 web/src/main/webapp/
+*.lst
+.gitignore

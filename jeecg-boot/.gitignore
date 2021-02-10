@@ -1,4 +1,6 @@
-/target/
+*/target/*
 /.idea/
 *.iml
 rebel.xml
+/jeecg-boot-module-demo/target/
+.gitignore

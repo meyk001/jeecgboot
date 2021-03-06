@@ -17,7 +17,15 @@ hs_err_pid*
 *.iws
 rebel.xml
 modules/core/target/*
-*/target/
 web/src/main/webapp/
-*.lst
-.gitignore
+
+## ide
+**/.idea
+*.iml
+
+## backend
+**/target/**
+**/logs
+
+## front
+**/*.lock
